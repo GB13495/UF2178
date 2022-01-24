@@ -26,7 +26,7 @@ public class Examen {
 	 * Método que calcula la media de IMCS de un paciente
 	 * @param la matriz que contiene los IMCS
 	 * @param el paciente (fila de la matriz)
-	 * @ return float la media de IMCS del paciente dado
+	 * @return float la media de IMCS del paciente dado
 	 */
 	public static double media_paciente(int paciente, double m[][]) {
 		double suma = 0, media = 0;
