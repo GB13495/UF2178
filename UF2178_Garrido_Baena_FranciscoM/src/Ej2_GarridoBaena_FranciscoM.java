@@ -21,10 +21,11 @@ public class Ej2_GarridoBaena_FranciscoM {
 			};
 		
 		Examen.mostrar_imcs(imcs_pacientes);
-		
+		int paciente;
+		do {
 		System.out.println("Numero de paciente (0-3): ");
-		int paciente = entrada.nextInt();
-		
+		paciente = entrada.nextInt();
+		}while (paciente > imcs_pacientes.length || paciente < 0);
 		System.out.printf("La media de IMCS del paciente %d es %.2f", paciente, Examen.media_paciente(paciente, imcs_pacientes));
 		entrada.close();
 	}
