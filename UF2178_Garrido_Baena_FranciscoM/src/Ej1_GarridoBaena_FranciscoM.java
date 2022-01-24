@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * @author Fran Garrido
- *
+ * Repositorio de Git: https://github.com/GB13495/UF2178
  */
 public class Ej1_GarridoBaena_FranciscoM{
 
